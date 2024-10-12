@@ -1,4 +1,7 @@
 # RandomChat
+- Connecting with anonymous user in the server.
+
+<img src='showcase/1.png' width=500>
 
 ## How to run
 
@@ -19,7 +22,7 @@ npm run dev
 1. go to `backend` directory
 2. build jar file
 ```bash
-mvn clean package
+./mvnw clean package
 ```
 3. run jar file
 ```bash
