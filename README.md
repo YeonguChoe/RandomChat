@@ -2,7 +2,6 @@
 
 ## How to run
 
-### Frontend
 1. install node packages
 
 ```bash
@@ -14,5 +13,4 @@ npm i
 npm run dev
 ```
 
-### Backend
-1. 
+3. run Spring application

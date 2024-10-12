@@ -45,7 +45,7 @@ const App: React.FC = () => {
             setIsInChatRoom(parsedData.status === 'connectedToUser');
             message = {
               text: parsedData.status === "connectedToServer" ?
-                "Welcome! You're now connected to the server." : parsedData.status === "connectedToUser" ? "Match found! Let's chat. San Franciscan." : "Anonymous has left the chat room.",
+                "Welcome! You're now connected to the server." : parsedData.status === "connectedToUser" ? "Match found! Let's chat." : "Anonymous has left the chat room.",
               origin: 'server'
             };
             setMessages((prevMessages) => [...prevMessages, message]);
